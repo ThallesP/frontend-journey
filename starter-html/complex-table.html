@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <caption>Products</caption>
+
+        <colgroup>
+            <col>
+            <col span="2" style="background-color: red;" >
+            <col span="2" style="background-color: orange;" >
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <!-- LOL i "translated" this just to be "funny" -->
+                <th colspan="2" scope="colgroup" >Americans</th>
+                <th colspan="2" scope="colgroup" >Houses bahia</th>
+            </tr>
+
+            <tr>
+                <th scope="col">Produced</th>
+                <th scope="col">Sold</th>
+                <th scope="col">Produced</th>
+                <th scope="col">Sold</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <th scope="row">Brooms</th>
+            <td>50</td>
+            <td>30</td>
+            <td>20</td>
+            <td>20</td>
+        </tbody>
+
+        <tr>
+            <th scope="row">Buckets</th>
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+            <td>25</td>
+        </tr>
+    </table>
+</body>
+</html>
