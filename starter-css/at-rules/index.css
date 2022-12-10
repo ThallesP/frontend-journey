@@ -1,0 +1,12 @@
+/* import external css*/
+@import url("httplocal");
+
+/* Used for mobile phones to be responsive*/
+@media (min-width: 500px) {
+    
+}
+
+/* css animations */
+@keyframes identifier {
+    
+}
